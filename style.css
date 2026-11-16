@@ -1,0 +1,62 @@
+img{
+display: block;
+max-width:30%;
+height:auto;
+}
+
+body {
+  color: blue;
+}
+
+h1 {
+  color: green;
+}
+
+h2 {
+  color: red;
+}
+
+p {
+font color:green;
+font size:15px;
+}
+
+:root{
+--font-sans: Arial, Helvetica, sans-serif;
+--text: #102a43;
+--muted: #486581
+
+}
+
+body {
+font-family: var(--font-sans);
+font-size: 1.5rem;
+line-height: 1.6;
+color: var(--text);
+
+}
+
+h1 {font-size: 2.25rem;}
+h2 {font-size: 1.5rem;}
+p {font-size: 1rem;}
+.meta{
+color:var(--muted);
+font-size:0.875rem;
+
+h1
+font-size:damp(2rem, 5vw, 4.5rem);
+line-height:1.1;
+}
+
+:root{
+color-scheme:light dark;
+}
+
+@media (prefers-color-scheme:dark){
+:root{
+--surface:#0b1f3a;
+--text:#f8fafc;
+}
+
+
+
